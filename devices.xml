@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
-<project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="q-mr1-legacy" />
-<project path="device/sony/common" name="device-sony-common" groups="device" remote="sony" revision="q-mr1-legacy" />
+<remote name="li" fetch="https://github.com/NoobLiROM" />
+<project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="li" revision="q-mr1-legacy" />
+<project path="device/sony/common" name="android_device_sony_common" groups="device" remote="li" revision="ten" />
 
 <!--msm8956-->
-<project path="device/sony/loire" name="device-sony-loire" groups="device" remote="sony" revision="master" />
-<project path="device/sony/blanc" name="device-sony-blanc" groups="device" remote="sony" revision="master" />
-<project path="device/sony/kugo" name="device-sony-kugo" groups="device" remote="sony" revision="master" />
-<project path="device/sony/suzu" name="device-sony-suzu" groups="device" remote="sony" revision="master" />
+<project path="device/sony/loire-common" name="android_device_sony_loire-common" groups="device" remote="li" revision="ten" />
+<project path="device/sony/kugo" name="android_device_sony_kugo" groups="device" remote="li" revision="ten" />
 
-<!--msm8996-->
-<project path="device/sony/tone" name="device-sony-tone" groups="device" remote="sony" revision="master" />
-<project path="device/sony/dora" name="device-sony-dora" groups="device" remote="sony" revision="master" />
-<project path="device/sony/kagura" name="device-sony-kagura" groups="device" remote="sony" revision="master" />
-<project path="device/sony/keyaki" name="device-sony-keyaki" groups="device" remote="sony" revision="master" />
-
-<!--msm8998-->
-<project path="device/sony/yoshino" name="device-sony-yoshino" groups="device" remote="sony" revision="master" />
-<project path="device/sony/lilac" name="device-sony-lilac" groups="device" remote="sony" revision="master" />
-<project path="device/sony/maple" name="device-sony-maple" groups="device" remote="sony" revision="master" />
-<project path="device/sony/poplar" name="device-sony-poplar" groups="device" remote="sony" revision="master" />
 </manifest>
