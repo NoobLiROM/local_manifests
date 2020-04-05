@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="derp" fetch="https://github.com/DerpFest-Devices/" />
 <remote name="los" fetch="https://github.com/LineageOS/" />
 <remote name="ALK-gitlab" fetch="https://gitlab.com/ALKALiKong" />
 
 <!--Device Tree-->
-<project path="device/xiaomi/dipper" name="device_xiaomi_dipper" groups="device" remote="derp" revision="ten" />
-<project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" groups="device" remote="derp" revision="ten" />
+<project path="device/xiaomi/dipper" name="device_xiaomi_dipper" groups="device" remote="devices" revision="ten" />
+<project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" groups="device" remote="devices" revision="ten" />
 
 <!--Kernel-->
-<project path="kernel/xiaomi/dipper" name="android_kernel_xiaomi_sdm845" groups="device" remote="li" revision="lineage-17.1" />
+<project path="kernel/xiaomi/dipper" name="android_kernel_xiaomi_sdm845" groups="device" remote="los" revision="lineage-17.1" />
 
 <!--Vendor Tree-->
-<project path="vendor/xiaomi/dipper" name="vendor_xiaomi_dipper" groups="device" remote="derp" revision="ten" />
-<project path="vendor/xiaomi/sdm845-common" name="vendor_xiaomi_sdm845-common" groups="device" remote="derp" revision="ten" />
+<project path="vendor/xiaomi/dipper" name="vendor_xiaomi_dipper" groups="device" remote="devices" revision="ten" />
+<project path="vendor/xiaomi/sdm845-common" name="vendor_xiaomi_sdm845-common" groups="device" remote="devices" revision="ten" />
 
 <!--Firmware Source-->
 <project path="vendor/xiaomi/dipper-firmware" name="vendor_xiaomi_dipper-firmware" groups="device" remote="ALK-gitlab" revision="master" />
