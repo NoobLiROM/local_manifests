@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="sony" fetch="https://github.com/sonyxperiadev/" />
-<remote name="li" fetch="https://github.com/NoobLiROM" />
-<project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="li" revision="q-mr1-legacy" />
-<project path="device/sony/common" name="android_device_sony_common" groups="device" remote="li" revision="ten" />
+<remote name="derp" fetch="https://github.com/DerpFest-Devices/" />
+<remote name="los" fetch="https://github.com/LineageOS/" />
+<remote name="ALK-gitlab" fetch="https://gitlab.com/ALKALiKong" />
 
-<!--msm8956-->
-<project path="device/sony/loire-common" name="android_device_sony_loire-common" groups="device" remote="li" revision="ten" />
-<project path="device/sony/kugo" name="android_device_sony_kugo" groups="device" remote="li" revision="ten" />
+<!--Device Tree-->
+<project path="device/xiaomi/dipper" name="device_xiaomi_dipper" groups="device" remote="derp" revision="ten" />
+<project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" groups="device" remote="derp" revision="ten" />
 
+<!--Kernel-->
+<project path="kernel/xiaomi/dipper" name="android_kernel_xiaomi_sdm845" groups="device" remote="li" revision="lineage-17.1" />
+
+<!--Vendor Tree-->
+<project path="vendor/xiaomi/dipper" name="vendor_xiaomi_dipper" groups="device" remote="derp" revision="ten" />
+<project path="vendor/xiaomi/sdm845-common" name="vendor_xiaomi_sdm845-common" groups="device" remote="derp" revision="ten" />
+
+<!--Firmware Source-->
+<project path="vendor/xiaomi/dipper-firmware" name="vendor_xiaomi_dipper-firmware" groups="device" remote="ALK-gitlab" revision="master" />
 </manifest>
