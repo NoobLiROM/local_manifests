@@ -3,7 +3,8 @@
 <remote name="twisted" fetch="https://github.com/TwistedKernel" />
 <remote name="ALK-gitlab" fetch="https://gitlab.com/ALKALiKong" />
 <remote name="twisted-prime" fetch="https://github.com/TwistedPrime" />
-  
+<remote name="devices" fetch="https://github.com/DerpFest-Devices" />
+
 <!--Device Tree-->
 <project path="device/xiaomi/dipper" name="device_xiaomi_dipper" groups="device" remote="devices" revision="ten" />
 <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" groups="device" remote="devices" revision="ten" />
