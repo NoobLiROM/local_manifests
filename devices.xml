@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="twisted" fetch="https://github.com/TwistedKernel" />
 <remote name="ALK-gitlab" fetch="https://gitlab.com/ALKALiKong" />
-<remote name="twisted-prime" fetch="https://github.com/TwistedPrime" />
 
 <!--Device Tree-->
 <project path="device/xiaomi/dipper" name="device_xiaomi_dipper" groups="device" remote="devices" revision="ten" />
 <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" groups="device" remote="devices" revision="ten" />
 
 <!--Kernel-->
-<project path="kernel/xiaomi/sdm845" name="Twisted-845" groups="device" remote="twisted" revision="master" />
-<project path="prebuilts/clang/host/linux-x86/clang-twisted" name="twisted-clang" groups="device" remote="twisted-prime"  revision="master" />
+<project path="kernel/xiaomi/sdm845" name="NoobLiROM/android_kernel_xiaomi_sdm845" groups="device" remote="github" revision="lineage-17.1" />
+<project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" groups="device" remote="github"  revision="master" />
   
 <!--Vendor Tree-->
 <project path="vendor/xiaomi/dipper" name="vendor_xiaomi_dipper" groups="device" remote="devices" revision="ten" />
