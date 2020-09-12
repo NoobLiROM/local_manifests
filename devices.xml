@@ -12,8 +12,8 @@
 <project path="kernel/xiaomi/dipper" name="kernel_xiaomi_sdm845" groups="device" remote="li" revision="R" />
   
 <!--Vendor Tree-->
-<project path="vendor/xiaomi/dipper" name="vendor_xiaomi_dipper" groups="device" remote="li" revision="eleven" />
-<project path="vendor/xiaomi/sdm845-common" name="vendor_xiaomi_sdm845-common" groups="device" remote="li" revision="eleven" />
+<project path="vendor/xiaomi/dipper" name="derp_vendor_xiaomi_dipper" groups="device" remote="li" revision="ten" />
+<project path="vendor/xiaomi/sdm845-common" name="derp__xiaomi_sdm845-common" groups="device" remote="li" revision="ten" />
 
 <!--Firmware Source-->
 <project path="vendor/xiaomi/dipper-firmware" name="vendor_xiaomi_dipper-firmware" groups="device" remote="ALK-gitlab" revision="master" />
