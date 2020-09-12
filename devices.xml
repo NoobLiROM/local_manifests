@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="ALK-gitlab" fetch="https://gitlab.com/ALKALiKong" />
+<remote name="li" fetch="https://github.com/NoobLiROM" />
 
 <!--Device Tree-->
-<project path="device/xiaomi/dipper" name="device_xiaomi_dipper" groups="device" remote="devices" revision="ten" />
-<project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" groups="device" remote="devices" revision="ten" />
+<project path="device/xiaomi/dipper" name="p404_device_xiaomi_dipper" groups="device" remote="li" revision="qemu" />
+<project path="device/xiaomi/sdm845-common" name="p404_device_xiaomi_sdm845-common" groups="device" remote="li" revision="qemu" />
 
 <!--Kernel-->
-<project path="kernel/xiaomi/sdm845" name="NoobLiROM/android_kernel_xiaomi_sdm845" groups="device" remote="github" revision="lineage-17.1" />
-<project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" groups="device" remote="github"  revision="master" />
+<project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" groups="device" remote="li" revision="lineage-17.1" />
   
 <!--Vendor Tree-->
-<project path="vendor/xiaomi/dipper" name="vendor_xiaomi_dipper" groups="device" remote="devices" revision="ten" />
-<project path="vendor/xiaomi/sdm845-common" name="vendor_xiaomi_sdm845-common" groups="device" remote="devices" revision="ten" />
+<project path="vendor/xiaomi/dipper" name="vendor_xiaomi_dipper" groups="device" remote="li" revision="qemu" />
+<project path="vendor/xiaomi/sdm845-common" name="vendor_xiaomi_sdm845-common" groups="device" remote="li" revision="qemu" />
 
 <!--Firmware Source-->
 <project path="vendor/xiaomi/dipper-firmware" name="vendor_xiaomi_dipper-firmware" groups="device" remote="ALK-gitlab" revision="master" />
 
 <!--Hardware Xiaomi-->
 <project path="hardware/xiaomi" name="android_hardware_xiaomi" groups="device" remote="lineage" revision="lineage-17.1" />
+
+<!--Others-->
+<project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" groups="device" remote="lineage" revision="lineage-17.1-pn5xx" />
+<project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" groups="device" remote="lineage" revision="lineage-17.1-pn5xx" />
+
 </manifest>
