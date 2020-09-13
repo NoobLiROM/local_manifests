@@ -20,7 +20,7 @@
 <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" remote="li" revision="eleven-caf-sdm845" />
 <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" remote="li" revision="eleven-caf-sdm845" />
 <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" remote="li" revision="eleven-caf-sdm845" />
-<project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="li" >
+<project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="li" revision="eleven" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- for AOSP sdm845, we override os_pickup.mk -->
