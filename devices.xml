@@ -46,7 +46,6 @@
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
   </project>
-  <project path="hardware/qcom-caf/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" />
   <remove-project name="platform/hardware/qcom/sdm845/bt"/>
   <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr"/>
   <remove-project name="platform/hardware/qcom/sdm845/display"/>
