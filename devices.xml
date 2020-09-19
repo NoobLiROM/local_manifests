@@ -46,18 +46,7 @@
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
   </project>
-  <remove-project name="platform/hardware/qcom/sdm845/bt"/>
-  <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr"/>
-  <remove-project name="platform/hardware/qcom/sdm845/display"/>
-  <remove-project name="platform/hardware/qcom/sdm845/media"/>
-  <project name="hardware_qcom_sdm845_bt"                path="hardware/qcom/sdm845/bt"                   remote="potato" />
-  <project name="hardware_qcom_sdm845_data_ipacfg-mgr"   path="hardware/qcom/sdm845/data/ipacfg-mgr"      remote="potato" >
-    <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
-  </project>
-  <project name="hardware_qcom_sdm845_display"           path="hardware/qcom/sdm845/display"              remote="potato" />
-  <project name="hardware_qcom_sdm845_media"             path="hardware/qcom/sdm845/media"                remote="potato" />
-  <project path="hardware/qcom-caf/sdm845/audio" name="hardware_qcom_audio" remote="potato-next" revision="d-staging1-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom_display" remote="potato-next" revision="d-staging1-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" remote="lineage" revision="lineage-17.1-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" remote="li" revision="eleven-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" remote="li" revision="eleven-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" remote="li" revision="eleven-caf-sdm845" />
 </manifest>
