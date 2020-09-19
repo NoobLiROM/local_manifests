@@ -22,6 +22,9 @@
 <project path="vendor/xiaomi/dipper" name="derp_vendor_xiaomi_dipper" groups="device" remote="li" revision="eleven" />
 <project path="vendor/xiaomi/sdm845-common" name="derp_vendor_xiaomi_sdm845-common" groups="device" remote="li" revision="eleven" />
 
+ <!--Firmware Source-->
+<project path="vendor/xiaomi/dipper-firmware" name="vendor_xiaomi_dipper-firmware" groups="device" remote="ALK-gitlab" revision="master" />
+  
 <!--Hals-->
 <remove-project name="hardware_qcom-caf_common" />
   <!-- QCOM CAF -->
