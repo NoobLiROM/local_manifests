@@ -59,4 +59,5 @@
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="lineage" revision="refs/heads/lineage-17.1" />
   <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="lineage" revision="lineage-17.1-pn5xx" />
   <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="lineage" revision="lineage-17.1-pn5xx" />
+  <project path="vendor/ALK/prebuilts" name="vendor_ALK_prebuilts" remote="li" revision="eleven" />
 </manifest>
