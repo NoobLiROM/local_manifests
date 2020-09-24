@@ -2,7 +2,6 @@
 <manifest>
 <remote name="ALK-gitlab" fetch="https://gitlab.com/ALKALiKong" />
 <remote name="li" fetch="https://github.com/NoobLiROM" />
-<remote name="lineage" fetch="https://github.com/LineageOS" />
   <remote name="potato"
           fetch="https://github.com/PotatoProject"
           revision="refs/heads/croquette-release" />
