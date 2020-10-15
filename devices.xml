@@ -4,15 +4,15 @@
 <remote name="li" fetch="https://github.com/NoobLiROM" />
 
 <!--Device Tree-->
-<project path="device/xiaomi/dipper" name="derp_device_xiaomi_dipper" groups="device" remote="yaap" revision="eleven" />
-<project path="device/xiaomi/sdm845-common" name="derp_device_xiaomi_sdm845-common" groups="device" remote="yaap" revision="eleven" />
+<project path="device/xiaomi/dipper" name="device_xiaomi_dipper" groups="device" remote="yaap" revision="eleven" />
+<project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" groups="device" remote="yaap" revision="eleven" />
 
 <!--Kernel-->
 <project path="kernel/xiaomi/dipper" name="kernel_xiaomi_dipper" groups="device" remote="yaap" revision="R" />
   
 <!--Vendor Tree-->
-<project path="vendor/xiaomi/dipper" name="derp_vendor_xiaomi_dipper" groups="device" remote="yaap" revision="eleven" />
-<project path="vendor/xiaomi/sdm845-common" name="derp_vendor_xiaomi_sdm845-common" groups="device" remote="yaap" revision="eleven" />
+<project path="vendor/xiaomi/dipper" name="vendor_xiaomi_dipper" groups="device" remote="yaap" revision="eleven" />
+<project path="vendor/xiaomi/sdm845-common" name="vendor_xiaomi_sdm845-common" groups="device" remote="yaap" revision="eleven" />
 
  <!--Firmware Source-->
 <project path="vendor/xiaomi/dipper-firmware" name="vendor_xiaomi_dipper-firmware" groups="device" remote="ALK-gitlab" revision="master" />
