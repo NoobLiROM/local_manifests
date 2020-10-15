@@ -16,3 +16,4 @@
 
  <!--Firmware Source-->
 <project path="vendor/xiaomi/dipper-firmware" name="vendor_xiaomi_dipper-firmware" groups="device" remote="ALK-gitlab" revision="master" />
+</manifest>
