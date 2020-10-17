@@ -8,7 +8,7 @@
 <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" groups="device" remote="yaap" revision="eleven" />
 
 <!--Kernel-->
-<project path="kernel/xiaomi/dipper" name="kernel_xiaomi_dipper" groups="device" remote="yaap" revision="R" />
+<project path="kernel/xiaomi/dipper" name="kernel_xiaomi_sdm845" groups="device" remote="li" revision="R-test" />
   
 <!--Vendor Tree-->
 <project path="vendor/xiaomi/dipper" name="vendor_xiaomi_dipper" groups="device" remote="yaap" revision="eleven" />
