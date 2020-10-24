@@ -18,8 +18,4 @@
  <!--Firmware Source-->
 <project path="vendor/xiaomi/dipper-firmware" name="vendor_xiaomi_dipper-firmware" groups="device" remote="ALK-gitlab" revision="master" />
 
-<!--GAPPS-->
-<project path="vendor/google/pixel" name="ZVNexus/android_vendor_google_pixel" groups="device"  remote="gitlab" revision="ruby" />
-<project path="vendor/google/gms" name="ZVNexus/android_vendor_google_gms" groups="device" remote="gitlab" revision="ruby" />
-  
 </manifest>
