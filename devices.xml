@@ -9,7 +9,7 @@
 <project path="device/qcom/sepolicy_vndr" name="Project-Awaken/android_device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="github" revision="11" />
 
 <!--Kernel-->
-<project path="kernel/xiaomi/dipper" name="kernel_xiaomi_dipper" groups="device" remote="yaap" revision="R" />
+<project path="kernel/xiaomi/dipper" name="kernel_xiaomi_dipper" groups="device" remote="yaap" revision="eleven" />
   
 <!--Vendor Tree-->
 <project path="vendor/xiaomi/dipper" name="vendor_xiaomi_dipper" groups="device" remote="yaap" revision="eleven" />
