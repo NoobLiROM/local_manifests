@@ -6,7 +6,6 @@
 <!--Device Tree-->
 <project path="device/xiaomi/dipper" name="device_xiaomi_dipper" groups="device" remote="yaap" revision="eleven" />
 <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" groups="device" remote="yaap" revision="eleven" />
-<project path="device/qcom/sepolicy_vndr" name="Project-Awaken/android_device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="github" revision="11" />
 
 <!--Kernel-->
 <project path="kernel/xiaomi/dipper" name="kernel_xiaomi_dipper" groups="device" remote="yaap" revision="eleven" />
