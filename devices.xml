@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="ALK-gitlab" fetch="https://gitlab.com/ALKALiKong" />
 <remote name="li" fetch="https://github.com/NoobLiROM" />
 
 <!--Device Tree-->
@@ -13,8 +12,5 @@
 <!--Vendor Tree-->
 <project path="vendor/xiaomi/dipper" name="vendor_xiaomi_dipper" groups="device" remote="yaap" revision="eleven" />
 <project path="vendor/xiaomi/sdm845-common" name="vendor_xiaomi_sdm845-common" groups="device" remote="yaap" revision="eleven" />
-
- <!--Firmware Source-->
-<project path="vendor/xiaomi/dipper-firmware" name="vendor_xiaomi_dipper-firmware" groups="device" remote="ALK-gitlab" revision="master" />
 
 </manifest>
