@@ -13,4 +13,7 @@
 <project path="vendor/xiaomi/dipper" name="vendor_xiaomi_dipper" groups="device" remote="yaap" revision="eleven" />
 <project path="vendor/xiaomi/sdm845-common" name="vendor_xiaomi_sdm845-common" groups="device" remote="yaap" revision="eleven" />
 
+<!--Qcom Common-->
+<project path="device/qcom/common" name="AOSPA/android_device_qcom_common" groups="device" remote="github" revision="ruby" />
+<project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" groups="device" remote="github" revision="ruby" />
 </manifest>
